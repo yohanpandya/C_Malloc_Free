@@ -1,11 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Copyright 2020-2023 Deb Deppeler based on work by Jim Skrentny
-// Posting or sharing this file is prohibited, including any changes/additions.
-// Used by permission FALL 2023, CS354-deppeler
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -409,6 +401,5 @@ void disp_heap() {
 int main(){
     init_heap(init_heap(4096));
     void* ptr = balloc(8);
-}
-// end p3Heap.c (Fall 2023)                                         
+}                                    
 
